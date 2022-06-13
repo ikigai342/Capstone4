@@ -1,4 +1,4 @@
-# Capstone Project 4
+# Project Manager
 Project management system that is written in Java, currently allows you to add, edit and complete projects.
 
 ### Current functionality
