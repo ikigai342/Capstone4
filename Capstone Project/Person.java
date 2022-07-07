@@ -1,4 +1,6 @@
-/* Is a Person class that stores users details for projects*/
+/**
+ * Is a Person class that stores users details for projects
+ */
 
 public class Person {
 	// Attributes
@@ -22,5 +24,12 @@ public class Person {
 	
 	public void setEmail(String newEmail) {
 		email = newEmail;
+	}
+
+	/**
+	 * @return a string with all the person details
+	 */
+	public String toString() {
+		return String.format("%s;%s;%s;%s", name, telNo, email, address);
 	}
 }
