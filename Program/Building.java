@@ -13,10 +13,23 @@ public class Building {
         this.ERFNo = ERFNo;
     }
 
+    // Getters
+
+    public int getERFNo() {
+        return ERFNo;
+    }
+    public String getProjectAddress() {
+        return projectAddress;
+    }
+    public String getBuildingType() {
+        return buildingType;
+    }
+
     /**
      * @return a string with all the building details
      */
     public String toString() {
-        return String.format("%s;%s;%o", buildingType, projectAddress, ERFNo);
+        return String.format("%o, '%s', '%s'", ERFNo, buildingType, projectAddress);
     }
+
 }
